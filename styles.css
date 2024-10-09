@@ -206,7 +206,7 @@ footer{
     align-items: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 750px){
     #contianer{
         width: 100%;
         display: flex;
@@ -228,25 +228,23 @@ footer{
         color: white;
     }
     .top{
-        background: rgba(0,0,0,0.2)url("assets/Title-Image.png");
-        background-blend-mode: darken;
+        background: black url("assets/Title-Image.png");
         box-sizing: border-box;
           
     }
     section{
-        height: "337px";
-        width: "599px";
+        height: "300px";
+        width: "500px";
     }
     nav{
-        height: 100px;
+        height: 75px;
         display: flex;
-        width: 100%;
+        width: 50%;
         justify-content: space-between;
         align-items: center;
     }
     nav ul{
     max-width: 100%;
-        list-style: none;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -256,26 +254,26 @@ footer{
         display: flex;
     }
     .logo{
-        width: 15%;
-        margin: 30px;
+        width: 10%;
+        margin: 20px;
     }
     nav ul li{
-        margin: 10px;    
+        margin: 5px;    
     }
     .menu{
-        margin: 18px;
+        margin: 10px;
     }
     .menu li{
-        margin: 15px;
+        margin: 10px;
     }
     .title .name{
-        font-size: 100px;
-        font-weight: 300;    
+        font-size: 40px;
+        font-weight: 200;    
     }
     .play-btn{
-        margin: 20px 20px;
+        margin: 10px 10px;
         display: flex;
-        padding: 4px 13px;
+        padding: 6px;
         align-items: center;
         border: 1px solid white;
         border-radius: 5px;
@@ -283,29 +281,29 @@ footer{
     .play-btn p{
         margin: 5px;
         color: black;
-        font-size: 15px;
+        font-size: 10px;
     }
     .info-btn{
-        margin: 20px 20px;
+        margin: 10px 10px;
         display: flex;
-        padding: 4px 13px;
+        padding: 6px;
         align-items: center;
         border: 0px solid white;
         border-radius: 5px;
-        background-color: rgba(250,250,250,0.5);
+        background-color: lightgray;
     }
     .info-btn p{
         margin: 5px;
         color: white;
-        font-size: 15px;
+        font-size: 10px;
         
     }
     .name-buttons{
         display: flex;
     }
     .title{
-        margin-left: 46px;
-        margin-top: 198px;
+        margin-left: 50px;
+        margin-top: 175px;
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -317,7 +315,7 @@ footer{
     
     }
     .show img{
-        margin: 8px;
+        margin: 10px;
     }
     .show p{
         margin: 10px;
@@ -339,23 +337,23 @@ footer{
         margin-left: 20px;
     }
     .top .footer{
-        margin-top: 100px;
-        margin-left: 46px;
+        margin-top: 80px;
+        margin-left: 40px;
     }
     .foot-bottom{
         display: flex;
         justify-content: space-between;
     }.foot-bottom img{
-        margin: 20px 20px;
+        margin: 10px 10px;
     }
     #top10{
         position: relative;
-        left: 255px;
+        left: 200px;
         top: 50px;
     }
     .topTen .images img{
-        height: 146px;
-        width: 100px;
+        height: 150px;
+        width: 90px;
     }
     .topTen .rank{
         display: flex;
@@ -364,7 +362,7 @@ footer{
     }
     footer{
         background-color: rgb(20,20,20);
-        padding: 20px 20px;
+        padding: 10px 20px;
     }
     .socials{
         display: flex;
@@ -379,7 +377,7 @@ footer{
     .artists ul li{
         color: rgb(128,128,128);
         list-style: none;
-        margin: 20px 8px;
+        margin: 15px 12px;
     }
     .artists{
         display: flex;
@@ -390,16 +388,16 @@ footer{
         border: 2px solid rgb(128,128,128);
         padding: 10px 10px;
         max-width: fit-content;
-        margin: 20px 8px;
+        margin: 15px 12px;
     }
     .copyright{
         color: rgb(128,128,128);
-        margin: 20px 8px;
+        margin: 15px 12px;
     }
     .heading{
         display: flex;
-        margin-top: 25px;
-        margin-left: 46px;
+        margin-top: 20px;
+        margin-left: 50px;
         align-items: center;
     }
     #contianer{
@@ -411,7 +409,7 @@ footer{
 
 }
     
-    @media (max-width: 768px){
+    @media (max-width: 750px){
         #contianer{
             width: 100%;
             display: flex;
@@ -438,30 +436,24 @@ footer{
         }
         .images img{
             width: 100%;
-            max-width: 210px;;
+            max-width: 150px;;
         }
 
-        @media (max-width: 400px) {
+        @media (max-width: 450px) {
             .title .name {
-                font-size: 30px; /* Adjust font size for small screens */
+                font-size: 24px; 
             }
         
             .play-btn, .info-btn {
-                padding: 2px 8px; /* Adjust button padding */
-                font-size: 12px; /* Adjust font size */
+                padding: 6px; 
+                font-size: 12px; 
             }
         
             .heading {
-                margin-left: 10px; /* Adjust margins */
+                margin-left: 10px;
             }
         
             .images {
-                justify-content: center; /* Center images */
-            }
-        }
-
-        
-        
-        
-        
+                justify-content: center;
+            }}  
     }
